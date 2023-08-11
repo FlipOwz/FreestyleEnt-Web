@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+@import url("../styles/header.css");
+@import url("../styles/footer.css");
+@import url("../styles/home.css");
+@import url("../styles/scroll.css");
+@import url("../styles/awards.css");
+@import url("../styles/mensais-2023.css");
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    /* cores */
+    --cor-fundo-primario: #000000;
+    --cor-fundo-secundario: #262626;
+    --cor-letra: #FFFFFF;
+    --cor-detalhes: #CF1515;
+
+    /* fontes */
+    --fonte-primaria: 'Bruno Ace', cursive;
+    --fonte-secundaria: 'Jura', sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo-primario);
+    color: var(--cor-letra);
+    font-family: var(--fonte-secundaria);
+    width: 100vw;
+}
+
+#main__pages {
+    height: 85vh;
+    width: 100vw;
+}
+
+.main__pages-section {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;
+}
+
+.section-div h1 {
+    font-size: 2rem;
+    font-family: var(--fonte-primaria);
+}
+
+.felix-img {
+    height: 35vh;
+    border-radius: 3rem;
+}
+
+.gif-img {
+    height: 15vh;
+}
