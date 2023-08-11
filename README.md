@@ -5,7 +5,7 @@ Versão 1 (Beta) - em progresso: Com o intuito de apenas estruturar o layout ofi
 Versão 2 (Alpha): Pensando na melhoria da interface de usuários, inserindo cadastro/login + a criação de uma API utilizando Spring Boot para guardar os pontos dos participantes obtidos em cada Awards realizado, nesta segunda versão, o site da Freestyle será desenvolvido utilizando a biblioteca **React**.
 
 --------------------------------------------------------------------------------------------------
-https://freestyle-ent.vercel.app/
+https://freestyleent.vercel.app/
 
 CEO & Designer: Felipe Galvão.
 
