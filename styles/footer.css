@@ -59,3 +59,12 @@
         row-gap: 0.3rem;
     }
 }
+
+
+@media screen and (max-width: 357px) {
+
+    #rodape {
+        height: 20vh;
+
+    }
+}
