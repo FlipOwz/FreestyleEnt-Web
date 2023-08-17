@@ -60,7 +60,7 @@
         top: 15vh; 
         right: 0;
         width: 100vw;
-        height: 85vh;
+        height: 110vh;
         background-color: rgba(232, 156, 156, 0.2);
         backdrop-filter: blur(8px);
         transition: all 0.3s ease;
@@ -95,6 +95,44 @@
     transform: translateX(0);
 }
 
+@media screen and (max-width: 1055px) {
+    .lista {
+        height: 130vh;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .lista {
+        height: 120vh;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .lista {
+        height: 110vh;
+    }
+}
+  
+
+@media screen and (max-width: 560px) {
+    .lista {
+        height: 90vh;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .lista {
+        height: 110vh;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .lista {
+        height: 100vh;
+    }
+}
+  
   
 @keyframes navLinkFade {
     from {
